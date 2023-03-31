@@ -16,10 +16,10 @@ main {
     border: 2px black solid;
 }
 
-
 a {
     margin-right: 10px;
 }
+
 a:hover {
     font-size: larger;
 }
