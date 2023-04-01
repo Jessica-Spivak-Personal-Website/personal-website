@@ -14,9 +14,21 @@ header {
 h1 {
     text-align: center;
 }
+
 main {
     background-color:lavender;
     padding: 20px 10px 20px 10px;
+    border: 2px black solid;
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
+}
+
+footer {
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 2px black solid;
 }
 
