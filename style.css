@@ -44,3 +44,10 @@ a {
 a:hover {
     font-size: larger;
 }
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
