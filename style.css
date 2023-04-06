@@ -6,13 +6,15 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: antiquewhite;
+  
 }
 
 header {
     display: flex;
     background-color: antiquewhite;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 4px;
+    padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
     border: 2px black solid;
@@ -32,10 +34,14 @@ h1 {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     background-color:lavender;
     padding: 20px 10px 20px 10px;
     border: 2px black solid;
+    /* align-items: center; */
+    justify-content: center;
     /* margin-left: 200px; */
     /* margin-right: 200px; */
 }
@@ -65,6 +71,11 @@ figure {
     padding-top: 10px;
 }
 
-body {
-    background-color: antiquewhite;
+
+p {
+    font-size: 20px;
+}
+p.paragraph {
+    text-align: center;
+    font-size: 25px;
 }
