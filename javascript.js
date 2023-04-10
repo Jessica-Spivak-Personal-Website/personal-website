@@ -52,12 +52,15 @@ let navbar = document.querySelectorAll(".navlink")
 let navContainer = document.querySelector("#nav")
 let hamburger = document.querySelector("#ham")
 
-if (window.innerWidth < 720) {
-    navContainer.classList.add("hide")
-    navbar.forEach((node) => node.classList.add("hide"))
-    hamburger.classList.remove("hide")
-} else {
-    navContainer.classList.remove("hide")
-    navbar.forEach((node) => node.classList.remove("hide"))
-    hamburger.classList.add("hide")
-}
+window.addEventListener("resize", () => {
+
+  if (window.innerWidth < 720) {
+      navContainer.classList.add("hide")
+      navbar.forEach((node) => node.classList.add("hide"))
+      hamburger.classList.remove("hide")
+  } else {
+      navContainer.classList.remove("hide")
+      navbar.forEach((node) => node.classList.remove("hide"))
+      hamburger.classList.add("hide")
+  }
+})
