@@ -86,6 +86,12 @@ p.paragraph {
     }
 }
 
+@media (max-width:700px){
+    .textArea{
+        width: 100%;
+    }
+}
+
 .pictureBackground {
     /* idk if I will keep this pic or change it. It's poor quality but I love this pic of myself*/
     background-image: url("ocean.jpg");
