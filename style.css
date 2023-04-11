@@ -110,3 +110,8 @@ p.paragraph {
     background-repeat: no-repeat; 
     background-size: cover;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
