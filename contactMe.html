@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Jessica's Website</title>
+    <title>Contact Me</title>
 </head>
 <body>
     <header>
         <div class="box-logo">
-            <img src="logo.png" width="120px">
+            <img src="logo.png" width="150px">
         </div>
         <nav>
             <ul>
@@ -21,19 +21,23 @@
             </ul>            
         </nav>       
     </header>
-    <main class="pictureBackground">
-        <h1 class="hello">Hello, my name is Jessica Spivak, and I am learning website and software development.</h1>
-        <br>
-        <br>
-        <br><br>
-        <p class="paragraph">
-            On my Portfolio page you will find a few projects I have worked on so far. I am currently learning 
-            Java, HTML, CSS, and JavaScript.<br>
+    <main>
+        <h1>Send me an email!</h1>
+        <form id="form">
+            <label for="text">Name</label>
+            <input type="text" value="">
             <br><br>
-            On my About page you will find some fun facts about myself and learn about the things I like.
-        </p>
+            <label for="email">E-mail</label>
+            <input type="email">
+            <br><br>
+            <label for="message">Message</label>
+            <br>
+            <textarea class="textArea" id="message" name="message" rows="8" cols="80"></textarea>
+            <br>
+            <br>
+            <button id="submit" type="submit">Submit</button>
+         </form>
     </main>
-
     <footer>
         <p>
             Contact info: jessica.spivak@uconn.edu
@@ -41,6 +45,6 @@
             linkedin
         </p>
     </footer>
-    <!-- <script src="javascript.js"></script> -->
+    <script src="main.js"></script>
 </body>
 </html>

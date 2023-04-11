@@ -1,5 +1,6 @@
 //alert("hello");
 console.log("Hello world");
+
 const externalLink = document.querySelector('#external_link');
 
 externalLink.addEventListener('click', function(e) {
@@ -25,3 +26,6 @@ externalLink2.addEventListener('click', function(e) {
     window.location = link;
   }
 })
+
+
+
