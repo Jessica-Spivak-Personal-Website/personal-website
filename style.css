@@ -22,7 +22,6 @@ header {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    /* width: 100%; */
 }
 
 nav ul {
@@ -32,10 +31,14 @@ nav ul {
 }
 
 h1 {
+    display: flex;
     text-align: center;
-    color:blue
+    flex-direction: column;
 }
-
+.hello {
+    position: absolute;
+    top: 20px;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -44,6 +47,7 @@ main {
     padding: 20px 10px 20px 10px;
     border: 2px black solid;
     justify-content: center;
+    position: relative;
 }
 
 footer {
