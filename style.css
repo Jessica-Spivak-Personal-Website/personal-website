@@ -28,6 +28,8 @@ nav ul {
     display: flex;
     list-style-type: none;
     text-align: right;
+    flex-wrap: wrap;
+
 }
 
 h1 {
@@ -37,7 +39,7 @@ h1 {
 }
 .hello {
     position: absolute;
-    top: 20px;
+    top: 30px;
 }
 main {
     display: flex;
@@ -76,7 +78,6 @@ figure {
     padding-top: 10px;
 }
 
-
 p {
     font-size: 20px;
 } 
@@ -105,13 +106,17 @@ p.paragraph {
     /* idk if I will keep this pic or change it. It's poor quality but I love this pic of myself*/
     background-image: url("ocean.jpg");
     background-color: #cccccc;
-    height: 500px; 
+    /* height: 500px;  */
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
+    /* position: absolute; */
+    
 }
+.container {
 
-form {
-    display: flex;
-    flex-direction: column;
 }
+/* form { */
+    /* display: flex; */
+    /* flex-direction: column; */
+/* } */
