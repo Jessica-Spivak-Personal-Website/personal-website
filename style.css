@@ -33,7 +33,7 @@ p {
 header {
     display: flex;
     background-color: antiquewhite;
-    padding-top: 4px;
+    padding-top: 4px !important;
     padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
@@ -49,9 +49,11 @@ nav ul {
     list-style-type: none;
     text-align: right;
     flex-wrap: wrap;
-    padding: 5px, 5px, 5px, 5px;
 }
 
+li {
+    font-size: 18px;
+}
 
 main {
     display: flex;
@@ -66,8 +68,8 @@ main {
 
 footer {
     background-color: antiquewhite;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     padding-left: 10px;
     padding-right: 10px;
     border: 2px black solid;
@@ -95,6 +97,14 @@ p.paragraph {
     color: white;
 }
 
+
+/* about page */
+.about {
+    padding-top: 12px;
+
+}
+
+
 /* portfolio page */
 @media (max-width:700px){
     .codepic{
@@ -110,6 +120,7 @@ figure {
     align-items: center;
     padding-top: 10px;
 }
+
 
 /* contact me page */
 @media (max-width:700px){
