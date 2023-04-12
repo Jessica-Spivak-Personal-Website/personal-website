@@ -91,11 +91,16 @@ footer {
     position: absolute;
     top: 30px;
 }
-p.paragraph {
+.pictureBackground p {
     text-align: center;
     font-size: 25px;
     color: white;
 }
+/* p.paragraph {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+} */
 
 
 /* about page */
