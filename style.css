@@ -2,13 +2,33 @@
 * {
     margin: 0;
 }
+
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     background-color: antiquewhite;
-  
 }
+
+a {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+a:hover {
+    font-size: x-large;
+    background-color:lightblue;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+} 
 
 header {
     display: flex;
@@ -29,18 +49,10 @@ nav ul {
     list-style-type: none;
     text-align: right;
     flex-wrap: wrap;
-
+    padding: 5px, 5px, 5px, 5px;
 }
 
-h1 {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-}
-.hello {
-    position: absolute;
-    top: 30px;
-}
+
 main {
     display: flex;
     flex-direction: column;
@@ -54,39 +66,36 @@ main {
 
 footer {
     background-color: antiquewhite;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     padding-left: 10px;
     padding-right: 10px;
     border: 2px black solid;
-    font-size: 10px;
 }
 
-a {
-    margin-right: 15px;
-    font-size: 20px;
+
+/* home page */
+.pictureBackground {
+    /* idk if I will keep this pic or change it. It's poor quality but I love this pic of myself*/
+    background-image: url("ocean.jpg");
+    background-color: #cccccc;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+     /* height: 500px;  */
+    /* position: absolute; */ 
 }
-
-a:hover {
-    font-size: x-large;
+.hello {
+    position: absolute;
+    top: 30px;
 }
-
-figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
-}
-
-p {
-    font-size: 20px;
-} 
-
 p.paragraph {
     text-align: center;
     font-size: 25px;
     color: white;
 }
+
+/* portfolio page */
 @media (max-width:700px){
     .codepic{
         width: 100%;
@@ -95,26 +104,18 @@ p.paragraph {
         width: 100%;
     }  
 }
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
 
+/* contact me page */
 @media (max-width:700px){
     .textArea{
         width: 100%;
     }
-}
-
-.pictureBackground {
-    /* idk if I will keep this pic or change it. It's poor quality but I love this pic of myself*/
-    background-image: url("ocean.jpg");
-    background-color: #cccccc;
-    /* height: 500px;  */
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    /* position: absolute; */
-    
-}
-.container {
-
 }
 /* form { */
     /* display: flex; */
