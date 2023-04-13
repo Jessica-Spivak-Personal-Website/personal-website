@@ -134,6 +134,7 @@ figure {
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    padding-bottom: 70px;
 }
 
 .portfolioParagraphs {
@@ -153,4 +154,11 @@ form {
 
 button {
     width: 60px;
+    margin-top: 20px;
+}
+
+input {
+    width: 30%;
+    min-width: 300px;
+    margin-bottom: 25px;
 }
