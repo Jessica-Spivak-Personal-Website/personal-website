@@ -11,8 +11,9 @@ body {
 }
 
 a {
-    margin-right: 15px;
+    margin-right: 10px;
     font-size: 20px;
+    padding: 5px;
 }
 
 a:hover {
@@ -53,6 +54,7 @@ nav ul {
 
 li {
     font-size: 18px;
+    /* padding: 10px; */
 }
 
 main {
@@ -79,17 +81,23 @@ footer {
 /* home page */
 .pictureBackground {
     /* idk if I will keep this pic or change it. It's poor quality but I love this pic of myself*/
+    display: flex;
+    flex-direction: column;
     background-image: url("ocean.jpg");
     background-color: #cccccc;
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
+    justify-content: space-between;
      /* height: 500px;  */
     /* position: absolute; */ 
 }
 .hello {
-    position: absolute;
-    top: 30px;
+    flex: 1;
+    
+}
+.hello h1 {
+    background-color: rgba(191, 191, 191, 0.5);
 }
 .pictureBackground p {
     text-align: center;
@@ -103,7 +111,9 @@ footer {
     color: white;
 } */
 
-
+p.secondSentence {
+    margin-bottom: 150px;
+}
 /* about page */
 .about {
     padding-top: 12px;
@@ -126,6 +136,9 @@ figure {
     padding-top: 10px;
 }
 
+.portfolioParagraphs {
+    margin: 5px;
+}
 
 /* contact me page */
 @media (max-width:700px){
@@ -133,7 +146,11 @@ figure {
         width: 100%;
     }
 }
-/* form { */
-    /* display: flex; */
-    /* flex-direction: column; */
-/* } */
+form { 
+    display: flex;
+    flex-direction: column;
+} 
+
+button {
+    width: 60px;
+}
