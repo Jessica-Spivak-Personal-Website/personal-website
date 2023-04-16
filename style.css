@@ -54,7 +54,6 @@ nav ul {
 
 li {
     font-size: 18px;
-    /* padding: 10px; */
 }
 
 main {
@@ -78,7 +77,7 @@ footer {
 }
 
 
-/* home page */
+/* HOME PAGE */
 .pictureBackground {
     /* idk if I will keep this pic or change it. It's poor quality but I love this pic of myself*/
     display: flex;
@@ -89,16 +88,17 @@ footer {
     background-repeat: no-repeat; 
     background-size: cover;
     justify-content: space-between;
-     /* height: 500px;  */
-    /* position: absolute; */ 
 }
+
 .hello {
     flex: 1;
     
 }
+
 .hello h1 {
     background-color: rgba(191, 191, 191, 0.5);
 }
+
 .pictureBackground p {
     text-align: center;
     font-size: 25px;
@@ -117,7 +117,7 @@ p.secondSentence {
 }
 
 
-/* portfolio page */
+/* PORTFOLIO PAGE */
 @media (max-width:700px){
     .codepic{
         width: 100%;
@@ -126,6 +126,7 @@ p.secondSentence {
         width: 100%;
     }  
 }
+
 figure {
     display: flex;
     flex-direction: column;
@@ -138,12 +139,13 @@ figure {
     margin: 5px;
 }
 
-/* contact me page */
+/* CONTACT ME PAGE */
 @media (max-width:700px){
     .textArea{
         width: 100%;
     }
 }
+
 form { 
     display: flex;
     flex-direction: column;
@@ -159,6 +161,7 @@ input {
     min-width: 300px;
     margin-bottom: 25px;
 }
+
 .contactMe {
     padding-bottom: 50px;
 }
