@@ -22,14 +22,20 @@
         </nav>       
     </header>
     <main>
-        <h1>Send me an email!</h1>
+        <h1 class="contactMe">Send me a message!</h1>
         <form id="form">
             <label for="text">Name</label>
             <input type="text" value="">
             <label for="email">E-mail</label>
             <input type="email">
             <label for="message">Message</label>
-            <textarea class="textArea" id="message" name="message" rows="8" cols="80"></textarea>
+            <!-- <textarea class="textArea" id="message" name="message" rows="8" cols="80"></textarea> -->
+            <div id="cct_embed_counts">
+                <textarea id="cct_embed_input_text" rows="12"></textarea>
+                <div id="cct_embed_result"></div>
+                <div id="cct_powered_by"><a href="https://charactercounttool.com"></a></div>
+                <script type="text/javascript" src="https://charactercounttool.com/cct_embed.min.js"></script>
+                </div>
             <button id="submit" type="submit">Submit</button>
          </form>
     </main>
